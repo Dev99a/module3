@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>module3-assignment</title>
+        <link href="css/style.css" rel="stylesheet" >
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatibe" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+    </head>
+    <body>
+        <nav id="header-nav" class="navbar navbar-default" >
+            <div class="container">
+                 <div class="navbar-header">
+                  <div class="navbar-brand">
+                    <a href="index.html"><h2>FOOD</h2></a>
+                    <a href="index.html"><h2>LLc</h2></a>
+                  </div>
+                  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                  </button>
+                 </div>
+                 
+        <div id="collapsable-nav" class="collapse navbar-collapse">
+          <ul id="nav-list" class="nav navbar-nav navbar-right">
+           <li>
+             <a href="#">
+               </span><br class="hidden-xs"> vegetables</a>
+           </li>
+           <li>
+             <a href="#">
+               <br class="hidden-xs"> fruits</a>
+           </li>
+           <li>
+             <a href="#">
+              <br class="hidden-xs"> leafs</a>
+           </li>
+          
+         </ul>
+       </div>
+                   
+            </div>
+        </nav> 
+      
+         <section  >
+              <div class="content">
+                  <div class="box1 col-lg-3 col-md-4 col-sm-8">
+                    <h2>vegetables</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima ratione sit, 
+                      ullam et dignissimos animi molestiae assumenda, eveniet perspiciatis, 
+                      saepe cum id? Hic error exercitationem sunt nihil dignissimos suscipit? Omnis.</p>
+                  </div>
+                  <div class="box2 col-lg-3 col-md-4 col-sm-8">
+                    <h2>fruits</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima ratione sit, 
+                      ullam et dignissimos animi molestiae assumenda, eveniet perspiciatis, 
+                      saepe cum id? Hic error exercitationem sunt nihil dignissimos suscipit? Omnis.</p>
+                  </div>
+                  <div class="box3 col-lg-3 col-md-8 col-sm-8">
+                    <h2>leafs</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima ratione sit, 
+                      ullam et dignissimos animi molestiae assumenda, eveniet perspiciatis, 
+                      saepe cum id? Hic error exercitationem sunt nihil dignissimos suscipit? Omnis.</p>
+                  </div>
+              </div>
+         </section>
+
+
+
+           <!--js-->
+           <script src="js/jquery-3.5.1.min.js"></script>
+           <script src="js/bootstrap.min.js"></script>
+           <script src="js/bootstrap.js"></script>
+           <script src="js/script.js"></script>
+
+    </body>
+</html>
